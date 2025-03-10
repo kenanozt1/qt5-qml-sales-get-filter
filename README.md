@@ -1,0 +1,1 @@
+# qt5-qml-sales-get-filter
