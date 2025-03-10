@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/assets">
+        <file>img/error.png</file>
+        <file>img/success.png</file>
+    </qresource>
+</RCC>
