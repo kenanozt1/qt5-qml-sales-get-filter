@@ -23,7 +23,7 @@ void DatabaseManager::connetToDatabase()
 {
     if(!db.isValid())
         db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("/exec/acr_main.db");
+    db.setDatabaseName("../../sales_date_filter.db");
     if(!db.open()){
         qDebug() << "Veri Tabanı Bağlantısı Başarısız";
         return;
